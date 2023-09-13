@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Koolio Project</title>
+  </head>
+  <body>
+    <h1 class="heading">Koolio Elevator Project</h1>
+    <div class="main">
+
+      <div class="lift-icons">
+        <div class="level-2-btn">
+          <button id="level-2-down-button">
+            <i class="fa-solid fa-angles-down"></i>
+          </button>
+        </div>
+        <div class="level-1-btn">
+          <button id="level-1-up-btn">
+            <i class="fa-solid fa-angles-up"></i>
+          </button>
+          <button id="level-1-down-btn">
+            <i class="fa-solid fa-angles-down"></i>
+          </button>
+        </div>
+        <div class="level-0-btn">
+          <button id="level-0-up-btn">
+            <i class="fa-solid fa-angles-up"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="levels">
+        <div class="level2" id="level2">
+          <p>Level 2</p>
+        </div>
+        <div class="level1" id="level1">
+          <p>Level 1</p>
+        </div>
+       
+        <div class="level0" id="level0" style="text-align: center;">
+            <p>Ground Level/Level 0</p>
+            <div class="elevator" id="elevator" style="text-align: center;">
+                <h2 style="margin: 0 auto;" id="Elevator_text">Elevator</h2>
+                <img src="/images/lift-img.png" alt="sorry" >
+            </div>
+          
+          
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
